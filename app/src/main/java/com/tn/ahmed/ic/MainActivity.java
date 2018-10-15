@@ -6,11 +6,13 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 TextView txt ;
+String tt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         txt=(TextView)findViewById(R.id.txt);
-        txt.setText("Yoyo");
+        tt="xoxo";
+        txt.setText(tt);
     }
 }
