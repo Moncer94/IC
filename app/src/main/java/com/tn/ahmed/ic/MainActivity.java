@@ -12,7 +12,7 @@ String tt;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         txt=(TextView)findViewById(R.id.txt);
-        tt="myoo";
+        tt="1111";
         txt.setText(tt);
     }
 }
